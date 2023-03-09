@@ -66,7 +66,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: ${kbBlack};
   }
 `;
 
@@ -108,6 +108,7 @@ export const NavLinks = styled(Link)`
   }
   @media screen and (max-width: 960px) {
     text-align: center;
+    color: ${kbWhite};
     padding: 2rem;
     width: 100%;
     display: table;
